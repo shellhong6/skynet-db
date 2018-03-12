@@ -1,0 +1,26 @@
+{
+  "name": "@flyme/skynet-db",
+  "version": "1.5.0",
+  "description": "skynet项目mogodb数据库处理的公共模块",
+  "main": "lib/service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "skynet",
+    "db"
+  ],
+  "publishConfig": {
+    "registry": "http://appff.meizu.com:8888"
+  },
+  "author": "guangjie",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "http://appff.meizu.com:8888/"
+  },
+  "dependencies": {
+    "@flyme/skynet-utils": "^1.0.4",
+    "async": "^2.1.4",
+    "mongoose": "^4.8.2"
+  }
+}
