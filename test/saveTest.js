@@ -1,7 +1,4 @@
 const Service = require('../lib/service.js');
-
-Service.setOptions('occasional')
-
 // Service.save('resources', 'appstore-welfare-201732', {
 //     "_imei" : "",
 //     "_page" : "https://i3.mzres.com/resources/appStore/welfare/views/welfare-list477.html",
@@ -14,7 +11,7 @@ Service.setOptions('occasional')
 var index = 1;
 function test(){
   console.log(index++);
-  Service.save('slow-timing', 'appstore-welfare', { _reportServerTime: 1490713236234,
+  Service.save('slow-timing', 'mall1', { _reportServerTime: 1490713236234,
     _search: '?campaignId=47&turnTo=a&business=1&os=22&mzos=5&screen_size=1080x1920&language=zh-CN&imei=863058037148545&sn=91QEBPH5ZU8M&device_model=M6810&v=5.4.19&vc=331&net=4g&uid=133191621&firmware=Flyme%205.1.6.0A&locale=CN&mpv=appsv5&custom_icon=1&uxip_session_id=5b94769f-3211-46fa-8fbc-3adececd4105&operator=46002',
     _imei: '',
     _page: 'https://bro-res2.flyme.cn/resources/activity/foolsday-store/index.html',
